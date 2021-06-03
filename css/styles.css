@@ -1,6 +1,6 @@
 body{
-  background-image: linear-gradient(to bottom, #464b52, #606b6f, #808c8c, #a4aea8, #cdd0c7);
-}
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,235,219,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);}
 
 a{
   text-decoration: none;
@@ -34,7 +34,7 @@ color: #474b4f;
 
 .homecarouselheading{
   position: absolute;
-  color: white;
+  color: #474b4f;
   font-weight: bolder;
   font-size: 300%;
   top: 30%;
@@ -42,20 +42,45 @@ color: #474b4f;
   opacity: 100%;
 }
 
+.homecarouseltextcareer{
+  position: absolute;
+  color: #474b4f;
+  text-align: justify;
+  padding: 3% 12%;
+  left: 24%;
+  top: 100%;
+  font-size: 100%;
+}
+.homecarouselheadingcareer{
+  position: absolute;
+  color: #474b4f;
+  font-weight: bolder;
+  font-size: 300%;
+  top: 90%;
+  left: 35%;
+  opacity: 100%;
+}
+
 .homecarouseltext{
   position: absolute;
-  color: white;
+  color: #474b4f;
   text-align: justify;
   padding: 3% 12%;
   top: 40%;
   font-size: 100%;
 }
 
+
 .car-img{
   opacity: 30%;
   position: relative;
 }
-
+.car-img-career{
+  opacity: 30%;
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
 .mainheadingmotto{
   color: #81b214;
   margin: 0;
@@ -107,7 +132,7 @@ color: #474b4f;
 
   font-weight: bolder;
   text-align: center;
-  color: white;
+  color: #474b4f;
 }
 
 .projectcarouseltext{
@@ -155,26 +180,27 @@ height: 40%;
   top: 55%;
   left: 10%;
   font-size: 250%;
-  color: white;
+  color: #474b4f;
 
 }
 
 
 
-
-.breadcrumbabout a{
-  color: white;
-  text-decoration: none;
-}
-
-.breadcrumbabout{
+.breadcrumbcareer{
   text-align: justify;
-  position: absolute;
+  padding: 1% 43%;
   top: 10%;
   left: 10%;
   font-size: 100%;
-  color: white;
+  color: #6b6e70;
 }
+
+.breadcrumbcareer a{
+  color: #6b6e70;
+  text-decoration: none;
+}
+
+
 
 .breadcrumbintro{
   text-align: justify;
@@ -182,7 +208,7 @@ height: 40%;
   top: 55%;
   left: 70%;
   font-size: 100%;
-  color: white;
+  color: #6b6e70;
 }
 
 .breadcrumb{
@@ -190,8 +216,38 @@ height: 40%;
 }
 
 .breadcrumbintro a{
-  color: white;
+  color: #6b6e70;
   text-decoration: none;
+}
+
+.careertext{
+  padding: 3% 7%;
+  font-size: 120%;
+}
+
+
+.career-image{
+  width: 100%;
+  position: relative;
+  opacity: 50%;
+}
+.careerimagetext{
+  font-size: 200%;
+  text-align: center;
+  position: absolute;
+  top: 260%;
+  left: 40%;
+  font-weight: bold;
+  color: #474b4f;
+}
+.careerimagetext2{
+ font-size: 170%;
+ text-align: center;
+ position: absolute;
+ top: 270%;
+ left: 33%;
+ font-weight: bold;
+ color: #474b4f;
 }
 
 .copyright{
@@ -344,4 +400,38 @@ margin-left: 40%;
 #body{
   padding: 3% 15%;
 
+}
+
+.carousel-indicators {
+	display:none;
+}
+
+.carousel-inner .item {
+  max-height: 680px;
+}
+
+.carousel-inner .item:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.carousel-control {
+  width: 10%;
+  color:#fff !important;
+}
+
+.carousel-control .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .fa.fa-chevron-right {
+  right: 50%;
+  margin-right: -10px;
 }
