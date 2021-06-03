@@ -16,7 +16,9 @@ a{
   padding: 1% 5%;
 }
 
-
+.servicestexts{
+  color: #474b4f;
+}
 .helloworld{
   width: 10%;
 }
@@ -150,7 +152,7 @@ color: #474b4f;
 
   font-weight: bolder;
   color: #474b4f;
-  font-size: 150%;
+  font-size: 120%;
   text-align: justify;
 
 }
