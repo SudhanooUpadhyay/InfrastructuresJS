@@ -185,6 +185,10 @@ height: 40%;
   color: white;
 }
 
+.breadcrumb{
+  font-weight: bold;
+}
+
 .breadcrumbintro a{
   color: white;
   text-decoration: none;
