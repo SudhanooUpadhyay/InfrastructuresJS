@@ -10,7 +10,7 @@ a{
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,222,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);  padding: 7% 15%;
   color: #474b4f;
-  border-radius: 50px !important;
+  border-radius: 3.125rem !important;
 
 }
 .navbar-nav{
@@ -38,7 +38,7 @@ a{
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,222,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);  padding: 7% 15%;
 color: #474b4f;
-border-radius: 50px !important;
+border-radius: 3.125rem !important;
 
 }
 
@@ -51,13 +51,30 @@ border-radius: 50px !important;
   left: 40%;
 }
 
-.homecarouselheadinghome{
-  position: absolute;
+.homecarouselheadingabout{
   color: black;
   font-weight: bolder;
-  font-size: 300%;
-  top: 40%;
-  left: 18%;
+  font-size: 4.5rem;
+  top: 70%;
+  left: 37%;
+}
+
+.homecarouseltextabout{
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding: 3% 7%;
+  top: 90%;
+  left: 7%;
+  font-size: 120%;
+}
+
+.homecarouselheadinghome{
+  color: black;
+  font-weight: bolder;
+  font-size: 4.5rem;
+  top: 70%;
+  left: 10%;
 }
 
 .homecarouseltextcareer{
@@ -79,21 +96,51 @@ border-radius: 50px !important;
   opacity: 100%;
 }
 
-.homecarouseltext{
+.headingcontainers{
+  background: #fff;
+  background: rgba(255, 255, 255, 1);
+  color: black;
+  display: block;
   position: absolute;
+  text-align: center;
+  top: 70%;
+  opacity: 100%;
+}
+
+.headingcontainersabout{
+  background: #fff;
+  background: rgba(255, 255, 255, 1);
+  color: black;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 18%;
+  opacity: 100%;
+}
+
+.homecarouseltext{
   color: black;
   font-weight: normal;
   text-align: center;
   padding: 3% 12%;
-  top: 50%;
-  left: 3%;
-  font-size: 100%;
+  top: 90%;
+  left: 2%;
+  font-size: 120%;
+
+}
+
+
+.homecarousel{
+  opacity: 60%;
 }
 
 
 .car-img{
-  opacity: 30%;
+  opacity: 90%;
+
   position: relative;
+  width: 100%;
 }
 .car-img-career{
   opacity: 30%;
@@ -102,6 +149,8 @@ border-radius: 50px !important;
   height: 50%;
 }
 
+
+
 .mainheadingmotto{
   color: #81b214;
   margin: 0;
@@ -109,6 +158,8 @@ border-radius: 50px !important;
   font-size: 60%;
   padding-left: 40%;
 }
+
+
 
 .toptopnavbar{
   padding: 1%;
@@ -146,7 +197,6 @@ border-radius: 50px !important;
 .car-img{
   width: 100% !important;
   height: 100% !important;
-  padding: 10%;
 }
 
 .homeheader{
@@ -160,10 +210,10 @@ border-radius: 50px !important;
 
   position: absolute;
   font-weight: bolder;
-  color: #474b4f;
+  color: black;
   top: 45%;
-  left: 20%;
-  font-size: 225%;
+  left: 16%;
+  font-size: 4.5rem;
 }
 
 
@@ -191,7 +241,6 @@ height: 40%;
   width: 100%;
   opacity: 50%;
   height: auto;
-  position:
 }
 
 .introtext{
@@ -273,13 +322,13 @@ height: 40%;
 
 .copyright{
   background-color: #6b6e70;
-  bottom: 0px;
+  bottom: 0 rem;
   color: white;
   text-align: center;
 }
 .nav-link{
   font-weight: bolder;
-  font-size: 100%;
+  font-size: 1rem;
 
   transition: font-size .5s;
   transition: color;
@@ -302,7 +351,7 @@ height: 40%;
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    margin-top: 0;
  }
 
 
@@ -311,7 +360,7 @@ height: 40%;
 
 .teamicon{
   color: #474b4f;
-  padding: 2%;
+  padding: 1rem;
 }
 
 .breadcrumb-item{
@@ -321,20 +370,20 @@ height: 40%;
 
 .dropcontentinfra{
   margin: auto;
-  padding: 3%;
+  padding: 3rem;
   background: rgb(238,227,224);
-  background: linear-gradient(90deg, rgba(238,227,224,1) 0%, rgba(128,120,128,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);
+  background: linear-gradient(90deg, rgba(238,227,224,1) 0rem, rgba(128,120,128,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);
 }
 
 .dropcontentsocio{
   margin: auto;
-  padding: 3%;
+  padding: 3rem;
   background: rgb(125,125,125);
 background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(88,87,87,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);
 }
 
 .dropcontentenvironmental{
-  padding: 3%;
+  padding: 3rem;
   background: rgb(238,227,224);
   background: linear-gradient(90deg, rgba(238,227,224,1) 0%, rgba(128,120,128,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);
 
@@ -344,15 +393,15 @@ background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(88,87,87,1) 100%
     border-radius: 4px;
     background: rgb(159,218,163);
 background: linear-gradient(180deg, rgba(159,218,163,1) 0%, rgba(255,253,253,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-    padding: 5%;
+    box-shadow: 0 6px 10 rem rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    padding: 0.75rem;
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   cursor: pointer;
 }
 
 .card:hover{
      transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10 rem 20 rem rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .card-text{
@@ -378,7 +427,7 @@ background: linear-gradient(180deg, rgba(159,218,163,1) 0%, rgba(255,253,253,1) 
 
 .projectshometext{
   font-weight: bold;
-  font-size: 120%;
+  font-size: 2rem;
 }
 
 .clientimg{
@@ -396,7 +445,8 @@ margin-left: 40%;
 
 .projectimg{
   position: relative;
-  opacity: 15%;
+  opacity: 85%;
+  padding: 0;
 
 }
 
@@ -412,7 +462,7 @@ margin-left: 40%;
 }
 
 #footer{
-  margin-top: 100px;
+  margin-top: 100 rem;
 
 
   width: 100%;
@@ -422,38 +472,4 @@ margin-left: 40%;
 #body{
   padding: 3% 15%;
 
-}
-
-.carousel-indicators {
-	display:none;
-}
-
-.carousel-inner .item {
-  max-height: 680px;
-}
-
-.carousel-inner .item:after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.carousel-control {
-  width: 10%;
-  color:#fff !important;
-}
-
-.carousel-control .fa {
-  position: absolute;
-  top: 50%;
-  z-index: 5;
-  display: inline-block;
-}
-.carousel-control .fa.fa-chevron-right {
-  right: 50%;
-  margin-right: -10px;
 }
