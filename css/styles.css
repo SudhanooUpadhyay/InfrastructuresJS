@@ -7,8 +7,8 @@ a{
 }
 
 .infradiv{
-  background: rgb(225,224,242);
-  background: linear-gradient(90deg, rgba(225,224,242,1) 0%, rgba(229,239,224,1) 100%, rgba(243,251,236,1) 100%);
+background-color: rgb(163, 193, 114);
+
    padding: 7% 15%;
   color: black;
   border-radius: 3.125rem !important;
@@ -36,8 +36,8 @@ a{
 }
 
 .connectwithusbox{
-  background: rgb(225,224,242);
-  background: linear-gradient(90deg, rgba(225,224,242,1) 0%, rgba(229,239,224,1) 100%, rgba(243,251,236,1) 100%);
+background-color: rgb(163,193,114);
+
     padding: 7% 15%;
 color: black;
 border-radius: 3.125rem !important;
@@ -169,8 +169,9 @@ border-radius: 3.125rem !important;
 }
 
 .clients{
-  background: rgb(225,224,242);
-  background: linear-gradient(90deg, rgba(225,224,242,1) 0%, rgba(229,239,224,1) 100%, rgba(243,251,236,1) 100%);
+    background-color: rgb(163, 193, 114);
+    padding: 3% 15%;
+
 }
 
 .client{
@@ -406,7 +407,7 @@ background: linear-gradient(180deg, rgba(159,218,163,1) 0%, rgba(255,253,253,1) 
  .homecard{
 
   border-radius: 4px;
-  background-color: white;
+  background-color: rgb(163,193,114);
   box-shadow: 0 6px 10 rem rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
   padding: 0.75rem;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
@@ -427,6 +428,7 @@ border: dotted 1px rgb(163,193,114);
 
 .card-text{
   text-align: justify;
+  color: white;
 }
 
 .col{
@@ -456,9 +458,6 @@ width: 20%;
 margin-left: 40%;
 }
 
-.clients{
-  padding: 3% 15%;
-}
 
 .projectshome{
   padding: 3% 15%;
