@@ -1,15 +1,16 @@
 body{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,235,219,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);}
+  background-color: white;
+}
 
 a{
   text-decoration: none;
 }
 
 .infradiv{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,222,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);  padding: 7% 15%;
-  color: #474b4f;
+  background: rgb(225,224,242);
+  background: linear-gradient(90deg, rgba(225,224,242,1) 0%, rgba(229,239,224,1) 100%, rgba(243,251,236,1) 100%);
+   padding: 7% 15%;
+  color: black;
   border-radius: 3.125rem !important;
 
 }
@@ -23,7 +24,7 @@ a{
 }
 
 .servicestexts{
-  color: #474b4f;
+  color: black;
 }
 .helloworld{
   width: 10%;
@@ -35,16 +36,17 @@ a{
 }
 
 .connectwithusbox{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,222,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);  padding: 7% 15%;
-color: #474b4f;
+  background: rgb(225,224,242);
+  background: linear-gradient(90deg, rgba(225,224,242,1) 0%, rgba(229,239,224,1) 100%, rgba(243,251,236,1) 100%);
+    padding: 7% 15%;
+color: black;
 border-radius: 3.125rem !important;
 
 }
 
 .homecarouselheading{
   position: absolute;
-  color: #474b4f;
+  color: black;
   font-weight: bolder;
   font-size: 300%;
   top: 40%;
@@ -79,7 +81,7 @@ border-radius: 3.125rem !important;
 
 .homecarouseltextcareer{
   position: absolute;
-  color: #474b4f;
+  color: black;
   text-align: justify;
   padding: 3% 12%;
   left: 24%;
@@ -88,7 +90,7 @@ border-radius: 3.125rem !important;
 }
 .homecarouselheadingcareer{
   position: absolute;
-  color: #474b4f;
+  color: black;
   font-weight: bolder;
   font-size: 300%;
   top: 90%;
@@ -111,7 +113,6 @@ border-radius: 3.125rem !important;
   background: #fff;
   background: rgba(255, 255, 255, 1);
   color: black;
-  display: block;
   position: absolute;
   text-align: center;
   top: 70%;
@@ -137,7 +138,7 @@ border-radius: 3.125rem !important;
 
 
 .car-img{
-  opacity: 90%;
+  opacity: 85%;
 
   position: relative;
   width: 100%;
@@ -168,8 +169,8 @@ border-radius: 3.125rem !important;
 }
 
 .clients{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,222,1) 100%, rgba(97,9,121,0.40706705045299374) 100%, rgba(175,220,229,0.3650502437303046) 100%);
+  background: rgb(225,224,242);
+  background: linear-gradient(90deg, rgba(225,224,242,1) 0%, rgba(229,239,224,1) 100%, rgba(243,251,236,1) 100%);
 }
 
 .client{
@@ -203,7 +204,7 @@ border-radius: 3.125rem !important;
 
   font-weight: bolder;
   text-align: center;
-  color: #474b4f;
+  color: black;
 }
 
 .projectcarouseltext{
@@ -213,14 +214,16 @@ border-radius: 3.125rem !important;
   color: black;
   top: 45%;
   left: 16%;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
+
+
 
 
 .projecttext{
 
   font-weight: bolder;
-  color: #474b4f;
+  color: black;
   font-size: 120%;
   text-align: justify;
 
@@ -250,7 +253,7 @@ height: 40%;
   top: 55%;
   left: 10%;
   font-size: 250%;
-  color: #474b4f;
+  color: black;
 
 }
 
@@ -262,7 +265,7 @@ height: 40%;
   top: 10%;
   left: 10%;
   font-size: 100%;
-  color: #6b6e70;
+  color: black;
 }
 
 .breadcrumbcareer a{
@@ -308,7 +311,7 @@ height: 40%;
   top: 260%;
   left: 40%;
   font-weight: bold;
-  color: #474b4f;
+  color: black;
 }
 .careerimagetext2{
  font-size: 170%;
@@ -317,7 +320,7 @@ height: 40%;
  top: 270%;
  left: 33%;
  font-weight: bold;
- color: #474b4f;
+ color: black;
 }
 
 .copyright{
@@ -359,12 +362,13 @@ height: 40%;
 /*DROPDOWN HOVER */
 
 .teamicon{
-  color: #474b4f;
+  color: black;
   padding: 1rem;
+  text-decoration: none;
 }
 
 .breadcrumb-item{
-  color: white !important;
+  color: black !important;
 }
 
 
@@ -399,7 +403,24 @@ background: linear-gradient(180deg, rgba(159,218,163,1) 0%, rgba(255,253,253,1) 
   cursor: pointer;
 }
 
+ .homecard{
+
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 6px 10 rem rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  padding: 0.75rem;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+cursor: pointer;
+border: dotted 1px rgb(163,193,114);
+
+}
+
 .card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10 rem 20 rem rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.homecard:hover{
      transform: scale(1.05);
   box-shadow: 0 10 rem 20 rem rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
@@ -446,10 +467,17 @@ margin-left: 40%;
 .projectimg{
   position: relative;
   opacity: 85%;
-  padding: 0;
+  padding: 5%;
 
 }
 
+
+.projectsocial{
+  text-decoration: none;
+  color: black;
+  padding: 5%;
+  font-size: 1.6rem;
+}
 .footerlinks{
   text-decoration: none;
   color: white;
