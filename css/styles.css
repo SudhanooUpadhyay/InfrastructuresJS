@@ -4,6 +4,7 @@ body{
 
 a{
   text-decoration: none;
+
 }
 
 
@@ -491,7 +492,6 @@ margin-left: 40%;
 .projectimg{
   position: relative;
   opacity: 85%;
-  padding: 5%;
 
 }
 
