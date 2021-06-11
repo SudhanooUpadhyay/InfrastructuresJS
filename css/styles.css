@@ -17,7 +17,7 @@ a{
   line-height: 3;
 }
 .infradiv{
-background-color: rgba(163, 193, 114,0.6);
+background-color: rgba(255, 255, 255,0.6);
 
    padding: 7% 15%;
   color: black;
@@ -268,7 +268,7 @@ height: 20%;
 
 .introimage{
   width: 100%;
-  opacity: 50%;
+  opacity: 90%;
   height: auto;
 }
 
@@ -390,7 +390,16 @@ padding: 7%;
 
 
 
+
+
 /*DROPDOWN HOVER */
+
+
+
+.custom-images{
+  height: 100%;
+  width: 100%;
+}
 
 .teamicon{
   color: black;
