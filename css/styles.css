@@ -279,7 +279,8 @@ height: 20%;
   top: 55%;
   left: 10%;
   font-size: 250%;
-  color: black;
+  color: white;
+  text-shadow: 3px 3px black;
 
 }
 
@@ -408,7 +409,8 @@ padding: 7%;
 }
 
 .breadcrumb-item{
-  color: black !important;
+  color: white !important;
+  text-shadow: 2px 2px black;
 }
 
 
