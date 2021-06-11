@@ -17,7 +17,7 @@ a{
   line-height: 3;
 }
 .infradiv{
-background-color: rgba(255, 255, 255,0.6);
+background-color: rgba(255, 255, 255,0.8);
 
    padding: 7% 15%;
   color: black;
@@ -49,7 +49,7 @@ background-color: rgba(255, 255, 255,0.6);
 background-color: rgb(163,193,114);
 
     padding: 7% 15%;
-     
+
 color: black;
 border-radius: 3.125rem !important;
 
