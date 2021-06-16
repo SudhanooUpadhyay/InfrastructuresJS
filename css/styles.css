@@ -1,9 +1,11 @@
 html{
   scroll-behavior: smooth;
+
 }
 
 body{
   background-color: white;
+
 }
 
 a{
@@ -46,7 +48,7 @@ background-color: rgba(255, 255, 255,0.8);
 }
 
 .connectwithusbox{
-background-color: rgb(163,193,114);
+background-color: white;
 
     padding: 7% 15%;
 
@@ -126,7 +128,7 @@ border-radius: 3.125rem !important;
   color: black;
   position: absolute;
   text-align: center;
-  top: 75%;
+  top: 50%;
   opacity: 100%;
     z-index: 9999;
 }
@@ -160,7 +162,7 @@ border-radius: 3.125rem !important;
 .video-container{
     position: relative;
     z-index: 0;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
 
 }
@@ -170,7 +172,7 @@ border-radius: 3.125rem !important;
   height: 100%;
   position: relative;
   object-fit: cover;
-
+  padding: 0;
 }
 
 .car-img{
@@ -255,7 +257,8 @@ border-radius: 3.125rem !important;
   color: black;
   top: 45%;
   left: 16%;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  z-index: 999;
 }
 
 
@@ -382,12 +385,27 @@ padding: 7%;
 
   transition: font-size .5s;
   transition: color;
+  position: relative;
 }
 
-.nav-link:hover {
-  font-size: 125%;
-    color: #61892f !important;
-}
+
+
+
+        .nav-link::before {
+            content: "";
+            width: 0px;
+            height: 2px;
+            background: blue;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            transition: .5s;
+        }
+
+        .nav-link:hover::before {
+            width: 50%;
+            transform: translateX(100%);
+        }
 
 
 .row{
@@ -484,7 +502,7 @@ border: dotted 1px rgb(163,193,114);
 
 .card-text{
   text-align: justify;
-  color: white;
+  color: blacks;
 }
 
 .col{
@@ -494,14 +512,12 @@ border: dotted 1px rgb(163,193,114);
 }
 
 .hrfooter{
-  border: 2px solid #62ff24;
+  border: 2px solid #3397f5;
 }
 
 .hrbody{
-  border: 5px solid #62ff24;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
+  border: 2px solid #3397f5;
+
 }
 
 .projectshometext{
@@ -522,9 +538,19 @@ margin-left: 40%;
 .projectimg{
   position: relative;
   opacity: 85%;
+}
+.projectimg::before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 125, 255, 0.2);
 
 }
-
 
 .projectsocial{
   text-decoration: none;
@@ -565,4 +591,12 @@ video {
   z-index: -100;
   display: flex;
   padding-top: 100px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background: rgba(0, 125, 255, 0.2);
 }
