@@ -578,7 +578,7 @@ margin-left: 40%;
 
 
 #body{
-  padding: 3% 15%;
+  padding: 3% 12%;
 
 }
 
@@ -593,10 +593,43 @@ video {
   padding-top: 100px;
 }
 
+
+.areaexp{
+  background-color: rgba(0, 125, 255, 0.3);
+  border: solid 1px white;
+  color: rgb(0, 125, 255);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      padding: 3% 15%;
+      margin-bottom: 0;
+}
+
+.areaexp:hover{
+  transform: scale(1.05);
+}
+.sectorcol{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 1px white;
+  color: black;
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      padding: 3% 15%;
+      margin-bottom: 0;
+}
+.sectorcol:hover{
+  transform: scale(1.05);
+}
 .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 5;
     background: rgba(0, 125, 255, 0.2);
+}
+
+#area{
+height: 100vh;
+  padding: 3%;
+}
+#sectors .sectordiv{
+  padding: 3%;
+  height: 100vh;
 }
